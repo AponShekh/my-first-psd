@@ -31,7 +31,7 @@ body{
     padding: 0;
     position: relative;
     float: right;
-    margin-top: 0.7%;
+    margin-top: 0.2%
 }
 .main-manu ul ul{
     position: absolute;
@@ -559,8 +559,32 @@ body{
     border-right: 26px solid #f8f8f8;
     border-bottom: 34px solid transparent;
 }
-
-@media only screen and (max-width: 540px){
+.search-box{
+    margin-top: 0.3%;
+}
+.search-box input{
+    display: none;
+    margin-top: -10%;
+}
+.search-box i:hover input{
+    display: block;
+    height: 22px;;
+    margin-top: -8%;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+}
+@media only screen and (max-width: 500px){
+    .search-box input{
+        display: none;
+    }
+    .search-box i:hover input{
+        display: block;
+        margin-top: -8%;
+        outline: none;
+        border-radius: 6px;
+        border: none;
+    }
     .main-manu ul {
         float: none;
         margin: auto;
@@ -686,7 +710,7 @@ body{
         margin-top: 20px;
     }
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 448px){
     .main-manu ul{
         margin-top: 20%;
         width: 104%;
@@ -705,6 +729,7 @@ body{
         width: 80%;
         height: 170px;
         margin-top: 10%;
+        box-shadow: 0px 0px 11px -2px;
     }
     .bkg3 span {
         text-align: center;
@@ -727,12 +752,14 @@ body{
         width: 100%;
         height: 45%;
         display: block;
+        box-shadow: 0px 0px 16px -6px;
     }
     .bkg5 {
         width: 100%;
         height: 45%;
         margin-top: 22%;
         display: block;
+        box-shadow: 0px 0px 16px -6px;
     }
     .bkg5:nth-last-child(2){
         width: 100%;
@@ -745,6 +772,7 @@ body{
         height: 45%;
         margin:22% auto;
         display: block;
+        box-shadow: 0px 0px 16px -6px;
     }
     .meddlebkg {
         height: 244px;
@@ -765,8 +793,8 @@ body{
         float: none;
     }
     .lastpart1 {
-        padding-left: 15%;
-        width: 85%;
+        padding-left: 6%;
+        width: 94%;
     }
     .lastpart5 {
         width: 25%;
@@ -787,4 +815,30 @@ body{
         width: 355%;
         margin: 26% 73%;
     }
+    .meddletext {
+        width: 100%;
+        margin: 22% auto;
+    }
+    .search-box input{
+        display: none;
+    }
+    .search-box i:hover input{
+        display: block;
+        margin-top: -8%;
+        outline: none;
+        border-radius: 6px;
+        border: none;
+    }
 }
+@media only screen and (max-width: 360px){
+    .main-manu ul ul >::after{
+        margin-top: -16%;
+    }
+    .lastpart1 {
+        padding-left: 6%;
+        width: 94%;
+    }
+}
+
+
+
