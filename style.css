@@ -1,0 +1,790 @@
+.container{
+    max-width: 1550px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+    position: relative;
+}
+.manubkg1{
+    background:url("path.png") no-repeat #76c7c0 scroll bottom;
+    width: 100%;
+    height: 70px;
+}
+.manubkg2{
+    width: 90.4%;   
+    margin: auto;
+    height: 40%;
+    padding-top: 1.7%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.main-manu ul{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    float: right;
+    margin-top: 0.7%;
+}
+.main-manu ul ul{
+    position: absolute;
+    width: 28.50%;
+    height: 115px;
+    background-color:#e2534b;
+    float: none;
+    display: none;
+    transition: 2s;
+    margin-top: 0.6%;
+    border-top: 17px solid #76c7c0;
+}
+.main-manu ul ul >::after{
+    content: '';
+    width: 0;
+    height: 0;
+    margin-top: -21%;
+    margin-left: 3.5%;
+    float: left;
+    border-bottom: 10px solid #e2534b;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.main-manu ul li:hover> ul{
+    display: block;
+}
+.main-manu ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-family: tahoma;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.main-manu ul li a:hover{
+    background-color: #e8645a;
+    box-shadow:0 3px 0px 0px #e2534b;
+}
+.main-manu ul ul li {
+    margin: 1.7%;
+    margin-top: 7%;
+    cursor: pointer;
+}
+.main-manu ul li{
+    float: left;
+}
+.main-manu ul li ul li{
+    float: none;
+}
+.search-box{
+    overflow: hidden;
+    float: right;
+    margin-left: 6.7%;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 0.6%;
+}
+.main-manu ul ul li a{
+    padding: 5px 15px;
+    color: #ffffff;
+    font-family: tahoma;
+    background-color: #e8645a;
+    margin: 0%;
+    border-radius: 5px;
+}
+.main-manu ul ul li a:hover{
+    background-color: #76c7c0;
+}
+.bkg1{
+    background-color: #7f8c8c;
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+.text1{
+    width: 200px;
+    margin: auto;
+    height: 20%;
+}
+.text1 p{
+    font-size: 170%;
+    font-family: tahoma;
+    color: #ffffff;
+    background-color: #e2534b;
+    text-align: center;
+    border-radius: 5px;
+}
+.text2{
+    background-color: #3f4646;
+    width: 450px;
+    border-radius: 5px;
+    height: 25%;
+    padding: 0.1%;
+    margin:  auto;
+
+}
+.text2 p{
+    text-align: center;
+    color: #ffffff;
+}
+.btnbkg{
+    width: 20%;
+    height: 20px;
+    margin: 0.5% auto;
+}
+.btn{
+    background-color: #b0b8b9;
+    height: 40%;
+    width: 30%;
+    float: left;
+    margin: 1.6%;
+    cursor: pointer;
+    transition:0.5s;
+}
+.btn:hover{
+    background-color: #e2534b;
+}
+.bkg2{
+    background: #ececec;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+}
+.bkg3{
+    width: 83%;
+    height: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3.2%;
+}
+.bkg3 p{
+    font-size: 91%;
+    padding: 0.2%;
+    margin: 0;
+    color: #7f8c8c;
+}
+.bkg2 button{
+    position: absolute;
+    float: right;
+    height: 35px;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 0 #e2534b;
+    background: #e8645a;
+    outline: none;
+    border: none;
+    top: 35%;
+    right: 3%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.bkg2 button:hover{
+    height: 38px;
+    width: 103px;
+    box-shadow: 0 8px 0 0 #e2534b;
+}
+.bkg2 button:hover:focus{
+    box-shadow: none;
+    height: 43px;
+}
+.bkg3 span{
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+    color: #7f8c8c;
+}
+.bkg4{
+    width: 80%;
+    height: 350px;
+    margin: 2% auto;
+}
+.bkg5{
+    height: 80%;
+    width: 22%;
+    background: #f8f8f8;
+    float: left;
+    margin: 0 4% 0 0;
+    border-radius: 5px;
+    border-bottom: 5px solid #e5e6e6;
+}
+.bkg6{
+    height: 80%;
+    width: 22%;
+    background: #f8f8f8;
+    float: right;
+    border-radius: 5px;
+    border-bottom: 5px solid #e5e6e6;
+}
+.bkg5 img{
+    margin:15% 30%;
+}
+.bkg6 img{
+    margin:15% 30%;
+}
+.bkg7{
+    height: 80%;
+    width: 22%;
+    background: #ffffff;
+    float: left;
+    margin: 0 4% 0 0;
+    border-radius: 5px;
+    border-bottom: 5px solid #e5e6e6;
+}
+.bkg7 img{
+    margin:15% 30%;
+}
+.bkg5 p{
+    text-align: center;
+    padding: 0;
+    font-size: 91%;
+}
+.bkg6 p{
+    text-align: center;
+    padding: 0;
+    font-size: 91%;
+}
+.bkg7 p{
+    text-align: center;
+    padding: 0;
+    font-size: 91%;
+}
+.bkg8{
+    width: 95%;
+    height: 85%;
+    margin: auto;
+}
+.bkg6 button {
+    outline: none;
+    border: none;
+    background: #76c7c0;
+    width: 70%;
+    margin: 12% 15%;
+    height: 34px;
+    color: #ffffff;
+    border-bottom: 3px solid #62b9b0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6;
+}
+.bkg7 button {
+    outline: none;
+    border: none;
+    background: #76c7c0;
+    width: 70%;
+    margin: 12% 15%;
+    height: 34px;
+    color: #ffffff;
+    border-bottom: 3px solid #62b9b0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6;
+}
+.bkg5 button {
+    outline: none;
+    border: none;
+    background: #76c7c0;
+    width: 70%;
+    margin: 12% 15%;
+    height: 34px;
+    color: #ffffff;
+    border-bottom: 3px solid #62b9b0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6;
+}
+.meddlebtn a:focus{
+    border-bottom: none;
+    height: 32px;
+}
+.meddlebtn button:focus{
+    border-bottom: none;
+    height: 37px;
+}
+.meddlebkg{
+    background: url(path1.png)no-repeat #ececec;
+    width: 100%;
+    height: 370px;
+    margin: auto;
+    position: relative;
+}
+.meddletext{
+    width: 49%;
+    height: 16%;
+    position: absolute;
+    margin: 10% 25.5%;
+}
+.meddletext p{
+    font-size: 91%;
+    text-align: center;
+    color: #777777;
+    padding: 0;
+    margin: 0;
+}
+.meddletext span p{
+    color:#e1524b;
+    font-size: 25px;
+    font-family: tahoma;
+}
+.monitorbox{
+    width: 80%;
+    height: 330px;
+    margin: auto;
+}
+.monitor3{
+    position: relative;
+    background: #b0b8b9;
+    width: 25%;
+    height: 190px;
+    float: left;
+    border-radius: 6px 0px 0px 6px;
+}
+.monitor3 .gol1{
+    width: 4%;
+    height: 6%;
+    float: left;
+    margin: 4% -4% 0% 5% ;
+    border-radius: 100%;
+    background: #ececec;
+}
+.monitor3 span{
+    margin-right: 7%;
+}
+.monitor3 .monitor4{
+    position: absolute;
+    width: 97%;
+    height: 80%;
+    background: #62b9b0;
+    bottom: 2%;
+    right: 0;
+    border-radius: 6px 0px 0px 6px ;
+}
+.monitor{
+    position: relative;
+    background: #c1c7c8;
+    width: 50%;
+    height: 330px;
+    float: left;
+    margin-top: -6.7%;
+    border-radius: 6px 6px 6px 6px;
+}
+.monitor .gol{
+    width: 4%;
+    height: 6%;
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 100%;
+    background: #ececec;
+}
+.monitor .mainac{
+    width: 4%;
+    height: 2%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+    background: #ececec;
+}
+.monitor .monitor2{
+    position: absolute;
+    width: 97%;
+    height: 80%;
+    background: #7f8c8c;
+    bottom: 2%;
+    right: 1.5%;
+    border-radius: 6px 6px 6px 6px ;
+}
+.monitor5{
+    position: relative;
+    background: #b0b8b9;
+    width: 25%;
+    height: 190px;
+    float: right;
+    border-radius: 0px 6px 6px 0;
+}
+.monitor5 .mainac2{
+    width: 4%;
+    height: 2%;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+    background: #ececec;
+}
+.monitor5 .monitor6{
+    position: absolute;
+    width: 97%;
+    height: 80%;
+    background: #62b9b0;
+    bottom: 2%;
+    left: 0;
+    border-radius: 0px 6px 6px 0px ;
+}
+.lastbkg1{
+    width: 80%;
+    height: 238px;
+    margin: auto;
+}
+.lastpart1{
+    width: 25%;
+    height: 80% ;
+    float: left;
+}
+.lastpart1 a:hover{
+    text-decoration: underline;
+    color: #E1524B;
+}
+.lastpart2{
+    width: 50%;
+    height: 80% ;
+    float: left;
+}
+.lastpart3{
+    width: 25%;
+    height: 80% ;
+    float: right;
+}
+.lastpart4{
+    margin: auto;
+    height: 30px;
+    width: 80%;
+}
+.lastpart4 p{
+    float: left;
+    display: inline-block;
+    margin-right: 1.9%;
+    margin-top: 0.3%;
+    color: #929c9c;
+    font-family: tahoma;
+}
+.lastpart5{
+    width: 76%;
+    height: 7%;
+    margin-top: 1.3%;
+    background: #e1e2e2;
+    float: left;
+}
+.lastpart4 button{
+    float: right;
+    display: inline-block;
+    background: #98a3a3;
+    outline: none;
+    margin-left: 1%;
+    border: none;
+    width: 30px;
+    border-radius: 6px;
+    height: 26px;
+    border-bottom: 3px solid #7f8c8c;
+    box-shadow: 0 0 0 10px transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.lastpart4 button i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.lastpart4 button:hover{
+    background:#e2534b ;
+    border-bottom: none;
+    height: 28px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+}
+.lastpart4 button:hover:focus{
+    background:#ee2015 ;
+}
+.lastpart1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.lastpart1 ul li a{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-size: 91%;
+}
+.lastpart1 ul li a i{
+    color: #e1524b;
+    font-size: 10px;
+}
+.lastpart1 p{
+    font-size: 17px;
+    color:#b3b9b9 ;
+    font-family: tahoma;
+}
+.lastpart1 ul li{
+    margin: 2.5% 0%;
+}
+.lastpart2 p{
+    font-size: 91%;
+    color: #d6d6d6;
+}
+.lastpart2 p a{
+    color: #e1524b;
+}
+.lastpart2 img{
+    margin: 4.3% auto;
+    width: 100%;
+}
+.lastpart3 p{
+    font-size: 18px;
+    color: #b3b9b9;
+    font-family: tahoma;
+}
+.lastpart3 .white .blackbkg p{
+    font-family: none;
+    font-size: 91%;
+    color: #777777;
+}
+.lastpart3 .white{
+    background: #f8f8f8;
+    width: 100%;
+    height: 55%;
+    padding-top: 0.1%;
+    border-radius: 6px;
+}
+.lastpart3 .white .blackbkg{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.lastpart3 .tre{
+    margin: 0% 12%;
+    float: left;
+    border-right: 26px solid #f8f8f8;
+    border-bottom: 34px solid transparent;
+}
+
+@media only screen and (max-width: 540px){
+    .main-manu ul {
+        float: none;
+        margin: auto;
+        margin-left: -2%;
+        padding-top: 3px;
+        margin-top: 14.3%;
+        display: block;
+        width: 100%;
+        background-color: rgb(36, 31, 31);
+    }
+    .main-manu ul li{
+        float: none;
+        margin-top: 3%;
+    }
+    .main-manu ul ul {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        height: 115px;
+        width: 100%;
+        position: inherit;
+        margin: 6% auto;
+        border: rgb(36, 31, 31);
+        border-bottom: 17px solid rgba(36, 31, 31 .0.0);
+    }
+    .main-manu ul ul li{
+        margin: 4%;
+    }
+    .main-manu ul ul li a{
+        padding-right: 51%;
+    }
+    .main-manu ul li a:hover{
+        border-radius:5px 5px 5px 5px;
+    }
+    .main-manu ul ul >::after{
+        margin-top: -13%;
+    }
+    .logo img {
+        width: 236%;
+        margin: 17% 122%;
+    }
+    .search-box {
+        margin-top: 4.6%;
+    }
+    .text1 {
+        margin: 37% auto;
+    }
+    .bkg1 {
+        height: 435px;
+    }
+    .text2 {
+        margin: -37% auto;
+    }
+    .bkg2 button{
+        width: 60px;
+    }
+    .bkg7 {
+        width: 46%;
+        height: 45%;
+    }
+    .bkg5 {
+        width: 46%;
+        height: 45%;
+        margin-right: 0%;
+        float: right;
+    }
+    .bkg4 {
+        height: 570px;
+    }
+    .bkg6 {
+        height: 45%;
+        width: 46%;
+        margin-right: 8%;
+    }
+    .monitor {
+        height: 210px;
+        margin-top: -20.7%;
+    }
+    .monitor3 {
+        height: 77px;
+    }
+    .monitor5 {
+        height: 77px;
+    }
+    .lastpart1 {
+        padding-bottom: 5%;
+        padding-left: 3%;
+        width: 57%;
+        float: none;
+        margin: auto;
+        border: 3px solid #76c7c0;
+        border-radius: 9px;
+    }
+    .lastpart2 {
+        margin-top: 5%;
+        float: none;
+        width: 100%;
+    }
+    .lastpart3 {
+        float: none;
+        width: 100%;
+    }
+    .lastpart4 {
+        margin: auto;
+        height: 32px;
+        width: 80%;
+        margin-top: 115%;
+    }
+    .lastpart5 {
+        width: 45%;
+        margin-top: 3.1%;
+        margin-left: 0.6%;
+    }
+    .lastbkg1 {
+        margin: -30% auto;
+    }
+    .main-manu ul li:hover ul{
+        margin-bottom: -3%;
+    }
+    .bkg5:nth-last-child(2){
+        margin-top: 20px;
+    }
+    .bkg6{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .main-manu ul{
+        margin-top: 20%;
+        width: 104%;
+    }
+    .main-manu ul ul li a{
+        padding-right: 37%
+    }
+    .text1 p {
+        font-size: 178%;
+    }
+    .text2 {
+        width: 329px;
+        height: 22%;
+    }
+    .bkg2 {
+        width: 80%;
+        height: 170px;
+        margin-top: 10%;
+    }
+    .bkg3 span {
+        text-align: center;
+    }
+    .bkg3 p {
+        padding: 2.2%;
+        text-align: center;
+    }
+    .bkg2 button {
+        position: inherit;
+        display: block;
+        float: none;
+        margin:5% auto;
+        width: 102px;
+        top:none;
+        right:none;
+    }
+    .bkg7 {
+        margin-top: 22%;
+        width: 100%;
+        height: 45%;
+        display: block;
+    }
+    .bkg5 {
+        width: 100%;
+        height: 45%;
+        margin-top: 22%;
+        display: block;
+    }
+    .bkg5:nth-last-child(2){
+        width: 100%;
+        height: 45%;
+        margin-top: 22%;
+        display: block;
+    }
+    .bkg6 {
+        width: 100%;
+        height: 45%;
+        margin:22% auto;
+        display: block;
+    }
+    .meddlebkg {
+        height: 244px;
+        margin: 217% auto;
+        margin-bottom: 0%;
+    }
+    .bkg5 button {
+        margin: 8% 15%;
+    }
+    .bkg6 button {
+        margin: 8% 15%;
+    }
+    .bkg7 button {
+        margin: 8% 15%;
+    }
+    .bkg3 {
+        margin: auto;
+        float: none;
+    }
+    .lastpart1 {
+        padding-left: 15%;
+        width: 85%;
+    }
+    .lastpart5 {
+        width: 25%;
+        margin-top: 4.1%;
+        margin-left: 2.6%;
+    }
+    .lastpart4 {
+        margin-top: 173%;
+    }
+    .monitor {
+        height: 157px;
+        margin-top: -16.7%;
+    }
+    .lastbkg1 {
+        margin: -49% auto;
+    }
+    .logo img {
+        width: 355%;
+        margin: 26% 73%;
+    }
+}
