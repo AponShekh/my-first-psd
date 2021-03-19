@@ -560,7 +560,7 @@ body{
     border-bottom: 34px solid transparent;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 540px){
     .main-manu ul {
         float: none;
         margin: auto;
